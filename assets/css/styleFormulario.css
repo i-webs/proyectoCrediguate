@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #911E30;
+	font-size: 16px;
+	font-family: "Roboto", Arial, sans-serif, helvetica;
+}
+
+.wrap{
+	width: 70%;
+	max-width: 350px;
+	margin: 10px auto 10px auto;
+}
+
+form{
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px;
+	/*background: rgba(100, 100, 100, 0.9);*/
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 3px grey;
+	border-top: 4px solid #79A52B;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea{
+	border: 3px solid #79A52B;
+	border-radius:5px;
+	padding:15px;
+	width: 90%;
+	margin:0 auto;
+	display: block;
+	margin-bottom: 20px;
+	font-family: "Roboto", Arial, sans-serif, helvetica;
+	font-size: 1em;
+	color: #262626;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus{
+	border: 3px solid #911E30 !important;
+	padding:15px;
+}
+
+form textarea{
+	max-width: 90%;
+	min-width: 90%;
+	max-height: 100px;
+	min-height: 50px;
+}
+
+.alert{
+	padding: 1em;
+	color: #fff;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.alert.error{
+	background: #f2dede;
+	border: 1px solid #a94442;
+	color: #a94442;
+}
+
+.alert.succes{
+	background: #4caf50;
+}
+
+.btn, form input[type="submit"]{
+	padding: 15px;
+	background: #79A52B;
+	color: #E1E9FA;
+	font-size: 1em;
+	border-radius:2px;
+	border: none;
+	float: right;
+	cursor: pointer;
+
+
+}
+
+.tbn{
+		display: block;
+	margin: auto;
+}
+
+.imageLogin{
+	width: 60%; 
+	display: block;
+	margin: auto;
+}
